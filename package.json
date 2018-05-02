@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-brunt",
+  "description": "HomeBridge plugin for Brunt devices",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RobXYZ/homebridge-brunt"
+  },
+  "license": "ISC",
+  "preferGlobal": true,
+  "keywords": [
+    "homebridge-plugin",
+    "brunt"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.3.0"
+  },
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "sonos": "^1.1.2"
+  }
+}

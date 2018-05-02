@@ -1,0 +1,18 @@
+{
+    "bridge": {
+        "name": "Example Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "051-45-124"
+    },
+
+
+"platforms": [
+		{
+			"platform": "Brunt",
+			"name": "Brunt",
+			"user":"YOURUSERNAME",
+			"pass":"YOURPASSWORD"
+		}
+	]
+}
