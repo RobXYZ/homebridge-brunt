@@ -1,7 +1,7 @@
 {
   "name": "homebridge-brunt",
   "description": "HomeBridge plugin for Brunt devices",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/RobXYZ/homebridge-brunt.git"
