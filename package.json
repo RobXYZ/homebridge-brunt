@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/RobXYZ/homebridge-brunt"
+    "url": "git://github.com/RobXYZ/homebridge-brunt.git"
   },
   "license": "ISC",
   "preferGlobal": true,
@@ -17,7 +17,18 @@
     "homebridge": ">=0.3.0"
   },
   "dependencies": {
-    "cookie": "^0.3.1",
-    "sonos": "^1.1.2"
-  }
+    "cookie": "^0.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/RobXYZ/homebridge-brunt/issues"
+  },
+  "homepage": "https://github.com/RobXYZ/homebridge-brunt#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
