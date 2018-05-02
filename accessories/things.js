@@ -135,10 +135,8 @@ function refreshState(callback) {
 	// If the blind is moving then check more often
 	if (that.state.targetPosition != that.state.currentPosition) {
 			stateTimeToLive = 2000;
-			console.log("MOOOOOVVING");
 	} else {
 			stateTimeToLive = 60000;
-			console.log("Stopped");
 	}
 
 	if (!that.state.updatetime) that.state.updatetime = rightnow;
