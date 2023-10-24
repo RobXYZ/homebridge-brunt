@@ -1,0 +1,20 @@
+{
+  "pluginAlias": "Brunt",
+  "pluginType": "platform",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "user": {
+        "title": "Username",
+        "type": "string",
+        "required": true
+      },
+      "pass": {
+        "title": "Password",
+        "type": "string",
+        "required": true,
+        "format": "password"
+      }
+    }
+  }
+}

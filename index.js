@@ -47,7 +47,12 @@ BruntPlatform.prototype = {
 			setInterval(that.reloadData.bind(that), timeRefresh);
 		};
 		*/
-		brunt.login(this.user, this.pass, function(loginData){
+		brunt.login(this.user, this.pass, function(error, loginData) {
+			if (error) {
+				callback([]);
+				return;
+			}
+		
 			brunt.getThings(loginData.sessionId, function(things){
 					
 				var thingTimeLapse = 0;

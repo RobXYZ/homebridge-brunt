@@ -157,8 +157,9 @@ function refreshState(callback) {
 					that.state.moveState = 2;
 			}
 
-			that.state.targetPosition = blindState.requestPosition;
-			that.state.currentPosition = blindState.currentPosition;
+			that.state.targetPosition = Math.min(Math.max(blindState.requestPosition, 0), 100);
+			that.state.currentPosition = Math.min(Math.max(blindState.currentPosition, 0), 100);
+
 
 			// Because the Brunt blinds do not always stop exactly on the target position we allow a couple of percent eitherway or the Home app thinks the blinds are still moving
 
